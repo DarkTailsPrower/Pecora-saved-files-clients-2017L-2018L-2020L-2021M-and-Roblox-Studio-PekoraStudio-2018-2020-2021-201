@@ -1,4 +1,4 @@
-# Pekora-Ssaved-files-clients
+# Pekora-Saved-files-clients
 I managed to download the clients for Pecora and all of Roblox Studio before it closed
 this have Clients 2017L 2018L 2020L 2021M
 Also Studio
