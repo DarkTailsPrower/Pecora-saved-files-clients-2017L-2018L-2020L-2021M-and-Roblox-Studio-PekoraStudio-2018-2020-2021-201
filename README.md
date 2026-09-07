@@ -6,3 +6,5 @@ Pekora Studio 2017
 Pekora Studio 2018
 Pekora Studio 2020
 Pekora Studio 2021
+
+Pecora saved files clients 2017L 2018L 2020L 2021M and Roblox Studio PekoraStudio 2018 2020 2021 2017
