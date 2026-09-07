@@ -1,0 +1,358 @@
+01:50:05:489 [13044] | INFO  | Initializing crosire's ReShade version '4.7.0.846' (32-bit) built on '2020-06-25 10:19:33' loaded from "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\OPENGL32.dll" into "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\ProjectXPlayerBeta.exe" ...
+01:50:05:583 [13044] | INFO  | Registering hooks for "user32.dll" ...
+01:50:05:583 [13044] | INFO  | > Libraries loaded.
+01:50:05:583 [13044] | INFO  | > Found 14 match(es). Installing ...
+01:50:05:605 [13044] | INFO  | Registering hooks for "ws2_32.dll" ...
+01:50:05:605 [13044] | INFO  | > Libraries loaded.
+01:50:05:605 [13044] | INFO  | > Found 8 match(es). Installing ...
+01:50:05:629 [13044] | INFO  | Registering hooks for "C:\Windows\system32\d2d1.dll" ...
+01:50:05:629 [13044] | INFO  | > Delayed.
+01:50:05:629 [13044] | INFO  | Registering hooks for "C:\Windows\system32\d3d9.dll" ...
+01:50:05:629 [13044] | INFO  | > Delayed.
+01:50:05:629 [13044] | INFO  | Registering hooks for "C:\Windows\system32\d3d10.dll" ...
+01:50:05:630 [13044] | INFO  | > Delayed.
+01:50:05:630 [13044] | INFO  | Registering hooks for "C:\Windows\system32\d3d10_1.dll" ...
+01:50:05:630 [13044] | INFO  | > Delayed.
+01:50:05:630 [13044] | INFO  | Registering hooks for "C:\Windows\system32\d3d11.dll" ...
+01:50:05:630 [13044] | INFO  | > Delayed.
+01:50:05:630 [13044] | INFO  | Registering hooks for "C:\Windows\system32\d3d12.dll" ...
+01:50:05:630 [13044] | INFO  | > Delayed.
+01:50:05:630 [13044] | INFO  | Registering hooks for "C:\Windows\system32\dxgi.dll" ...
+01:50:05:630 [13044] | INFO  | > Delayed.
+01:50:05:630 [13044] | INFO  | Registering hooks for "C:\Windows\system32\opengl32.dll" ...
+01:50:05:630 [13044] | INFO  | > Delayed until first call to an exported function.
+01:50:05:630 [13044] | INFO  | Initialized.
+01:50:06:920 [13044] | WARN  | Ignoring LoadLibrary("kernel32.dll") call to avoid possible deadlock.
+01:50:06:927 [13044] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 0019FDAC { WINDOWSCLIENT }) ...
+01:50:06:928 [13044] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'WINDOWSCLIENT'.
+01:50:07:423 [13044] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 02688500 { ATL:02688500 }) ...
+01:50:07:423 [13044] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'ATL:02688500'.
+01:50:07:666 [13044] | INFO  | Installing delayed hooks for "C:\Windows\system32\d3d11.dll" (Just loaded via LoadLibrary("d3d11.dll")) ...
+01:50:07:666 [13044] | INFO  | > Found 2 match(es). Installing ...
+01:50:07:698 [13044] | INFO  | Installing delayed hooks for "C:\Windows\system32\dxgi.dll" (Just loaded via LoadLibrary("d3d11.dll")) ...
+01:50:07:698 [13044] | INFO  | > Found 8 match(es). Installing ...
+01:50:07:726 [13044] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 0019E9DC) ...
+01:50:07:729 [13044] | INFO  | Redirecting D3D11CreateDevice(pAdapter = 0D88F8D0, DriverType = 0, Software = 00000000, Flags = 0, pFeatureLevels = 0019E9AC, FeatureLevels = 3, SDKVersion = 7, ppDevice = 0DE28FCC, pFeatureLevel = 00000000, ppImmediateContext = 0DE28FD0) ...
+01:50:07:729 [13044] | INFO  | > Passing on to D3D11CreateDeviceAndSwapChain:
+01:50:07:729 [13044] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0D88F8D0, DriverType = 0, Software = 00000000, Flags = 0, pFeatureLevels = 0019E9AC, FeatureLevels = 3, SDKVersion = 7, pSwapChainDesc = 00000000, ppSwapChain = 00000000, ppDevice = 0DE28FCC, pFeatureLevel = 00000000, ppImmediateContext = 0DE28FD0) ...
+01:50:07:981 [13044] | INFO  | > Using feature level 0xb000.
+01:50:07:981 [13044] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 0DF4C930, pDevice = 16D33C08, pDesc = 0019E968, ppSwapChain = 0019E9E4) ...
+01:50:07:981 [13044] | INFO  | > Dumping swap chain description:
+01:50:07:981 [13044] | INFO  |   +-----------------------------------------+-----------------------------------------+
+01:50:07:981 [13044] | INFO  |   | Parameter                               | Value                                   |
+01:50:07:981 [13044] | INFO  |   +-----------------------------------------+-----------------------------------------+
+01:50:07:981 [13044] | INFO  |   | Width                                   | 800                                     |
+01:50:07:981 [13044] | INFO  |   | Height                                  | 599                                     |
+01:50:07:981 [13044] | INFO  |   | RefreshRate                             | 0                   1                   |
+01:50:07:981 [13044] | INFO  |   | Format                                  | 28                                      |
+01:50:07:981 [13044] | INFO  |   | ScanlineOrdering                        | 0                                       |
+01:50:07:981 [13044] | INFO  |   | Scaling                                 | 0                                       |
+01:50:07:981 [13044] | INFO  |   | SampleCount                             | 1                                       |
+01:50:07:981 [13044] | INFO  |   | SampleQuality                           | 0                                       |
+01:50:07:981 [13044] | INFO  |   | BufferUsage                             | 32                                      |
+01:50:07:981 [13044] | INFO  |   | BufferCount                             | 1                                       |
+01:50:07:981 [13044] | INFO  |   | OutputWindow                            | 001D0BC0                                |
+01:50:07:981 [13044] | INFO  |   | Windowed                                | TRUE                                    |
+01:50:07:981 [13044] | INFO  |   | SwapEffect                              | 0                                       |
+01:50:07:981 [13044] | INFO  |   | Flags                                   | 0                                       |
+01:50:07:981 [13044] | INFO  |   +-----------------------------------------+-----------------------------------------+
+01:50:08:331 [13044] | INFO  | Running on Intel(R) Iris(R) Xe Graphics
+01:50:08:333 [13044] | INFO  | Recreated runtime environment on runtime 16DA14E8.
+01:50:08:446 [13044] | INFO  | Installing delayed hooks for "C:\Windows\system32\d3d9.dll" (Just loaded via LoadLibrary("d3d9.dll")) ...
+01:50:08:446 [13044] | INFO  | > Found 9 match(es). Installing ...
+01:50:08:470 [13044] | INFO  | Redirecting Direct3DCreate9(SDKVersion = 32) ...
+01:50:08:477 [13044] | INFO  | Redirecting CreateDXGIFactory1(riid = {770AAE78-F26F-4DBA-A829-253C83D1B387}, ppFactory = 0019D944) ...
+01:50:08:482 [16988] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 21E8FE90 { Message }) ...
+01:50:08:482 [16988] | INFO  | > Adding 'CS_OWNDC' window class style flag to 'Message'.
+01:50:08:506 [12504] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Tonemap.fx".
+01:50:08:506 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FakeMotionBlur.fx".
+01:50:08:506 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Colourfulness.fx".
+01:50:08:508 [11820] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LightDoF.fx".
+01:50:08:508 [12504] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Vibrance.fx".
+01:50:08:509 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmGrain.fx".
+01:50:08:511 [12504] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Vignette.fx".
+01:50:08:513 [15600] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DFX.fx".
+01:50:08:516 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmGrain2.fx".
+01:50:08:517 [11820] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LumaSharpen.fx".
+01:50:08:521 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Comic.fx".
+01:50:08:522 [11820] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LUT.fx".
+01:50:08:523 [16524] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx(226, 1): warning X4576: 'FilmicAnamorphSharpenPS': input parameter 'UvCoord' semantic does not match vertex shader one
+
+01:50:08:526 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicBloom.fx".
+01:50:08:527 [11820] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LUTTools.fx".
+01:50:08:528 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Composition.fx".
+01:50:08:529 [15600] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DToElse.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DToElse.fx(628, 1): warning X4576: 'PS_InputBB': input parameter 'texcoord' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DToElse.fx(634, 1): warning X4576: 'PS_InputLR': input parameter 'texcoord' semantic does not match vertex shader one
+
+01:50:08:530 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicGrade.fx".
+01:50:08:531 [12504] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Polynomial_Barrel_Distortion_for_HMDs.fx".
+01:50:08:534 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CrossHair.fx".
+01:50:08:535 [11820] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MagicBloom.fx".
+01:50:08:535 [15600] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AdaptiveFog.fx".
+01:50:08:536 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicPass.fx".
+01:50:08:539 [11092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Sobel_Direction.fx".
+01:50:08:541 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicSharpen.fx".
+01:50:08:542 [11092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Splitscreen.fx".
+01:50:08:544 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CRT.fx".
+01:50:08:544 [13580] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Curved_Levels.fx".
+01:50:08:546 [12504] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pong.fx".
+01:50:08:546 [11092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\StageDepth.fx".
+01:50:08:549 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CRT_Yee64.fx".
+01:50:08:550 [13044] | INFO  | Redirecting IDXGISwapChain::ResizeBuffers(this = 16DEF658, BufferCount = 0, Width = 0, Height = 0, NewFormat = 0, SwapChainFlags = 0) ...
+01:50:08:552 [13580] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Filmic_Adaptation.fx".
+01:50:08:552 [12504] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PPFX_Bloom.fx".
+01:50:08:553 [10248] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CRT_Yeetron.fx".
+01:50:08:553 [11820] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MagicHDR.fx".
+01:50:08:554 [16524] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FineSharp.fx".
+01:50:08:560 [15600] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+01:50:08:561 [11092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Stats.fx".
+01:50:08:562 [13044] | INFO  | Destroyed runtime environment on runtime 16DA14E8.
+01:50:08:564 [13044] | INFO  | Recreated runtime environment on runtime 16DA14E8.
+01:50:08:579 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LightDoF.fx".
+01:50:08:582 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Colourfulness.fx".
+01:50:08:582 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DFX.fx".
+01:50:08:584 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LumaSharpen.fx".
+01:50:08:586 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FakeMotionBlur.fx".
+01:50:08:586 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Tonemap.fx".
+01:50:08:588 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Curved_Levels.fx".
+01:50:08:589 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LUT.fx".
+01:50:08:589 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Vibrance.fx".
+01:50:08:589 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmGrain.fx".
+01:50:08:590 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Vignette.fx".
+01:50:08:591 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Sobel_Direction.fx".
+01:50:08:592 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Filmic_Adaptation.fx".
+01:50:08:592 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LUTTools.fx".
+01:50:08:597 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmGrain2.fx".
+01:50:08:600 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MagicBloom.fx".
+01:50:08:601 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Splitscreen.fx".
+01:50:08:602 [12208] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DToElse.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DToElse.fx(628, 1): warning X4576: 'PS_InputBB': input parameter 'texcoord' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\3DToElse.fx(634, 1): warning X4576: 'PS_InputLR': input parameter 'texcoord' semantic does not match vertex shader one
+
+01:50:08:603 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Comic.fx".
+01:50:08:603 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\StageDepth.fx".
+01:50:08:604 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Levels.fx".
+01:50:08:604 [03268] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicAnamorphSharpen.fx(226, 1): warning X4576: 'FilmicAnamorphSharpenPS': input parameter 'UvCoord' semantic does not match vertex shader one
+
+01:50:08:606 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AdaptiveFog.fx".
+01:50:08:607 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicBloom.fx".
+01:50:08:607 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Composition.fx".
+01:50:08:608 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Polynomial_Barrel_Distortion_for_HMDs.fx".
+01:50:08:610 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicGrade.fx".
+01:50:08:612 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CrossHair.fx".
+01:50:08:613 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MagicHDR.fx".
+01:50:08:619 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MBMB.fx".
+01:50:08:620 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Stats.fx".
+01:50:08:623 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CRT.fx".
+01:50:08:623 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx".
+01:50:08:624 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SunsetFilter.fx".
+01:50:08:625 [17612] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MedianFilter.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MedianFilter.fx(149, 1): warning X4576: 'Median': input parameter 'texcoord' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MedianFilter.fx(155, 1): warning X4576: 'PS0': input parameter 'texcoord' semantic does not match vertex shader one
+
+01:50:08:629 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MeshEdges.fx".
+01:50:08:632 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicPass.fx".
+01:50:08:633 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CRT_Yee64.fx".
+01:50:08:633 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pong.fx".
+01:50:08:635 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MinimalColorGrading.fx".
+01:50:08:639 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CRT_Yeetron.fx".
+01:50:08:640 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Monochrome.fx".
+01:50:08:641 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PPFX_Bloom.fx".
+01:50:08:642 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Cursor.fx".
+01:50:08:642 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FilmicSharpen.fx".
+01:50:08:644 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MultiFX.fx".
+01:50:08:645 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AdaptiveSharpen.fx".
+01:50:08:647 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PPFX_Godrays.fx".
+01:50:08:648 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Curves.fx".
+01:50:08:654 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Daltonize.fx".
+01:50:08:658 [15092] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PPFX_SSDO.fx" with warnings:
+warning: V__texNoise: another effect (PD80_03_Curved_Levels.fx) already created a texture with the same name but different dimensions; textures are shared across all effects, so either rename the variable or adjust the dimensions so they match
+
+01:50:08:665 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_BlacknWhite.fx".
+01:50:08:669 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Prism.fx".
+01:50:08:671 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AdaptiveTonemapper.fx".
+01:50:08:674 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FineSharp.fx".
+01:50:08:674 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MultiTonePoster.fx".
+01:50:08:683 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Flashlight.fx".
+01:50:08:684 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Deband.fx".
+01:50:08:689 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FlexibleCA.fx".
+01:50:08:692 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\MXAO.fx".
+01:50:08:693 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Flipbook.fx".
+01:50:08:693 [15092] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(358, 1): warning X4576: 'PS_BloomPrepass': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(367, 2): warning X4576: 'PS_Downsample1': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(368, 2): warning X4576: 'PS_Downsample2': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(369, 2): warning X4576: 'PS_Downsample3': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(370, 2): warning X4576: 'PS_Downsample4': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(371, 2): warning X4576: 'PS_Downsample5': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(372, 2): warning X4576: 'PS_Downsample6': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(373, 2): warning X4576: 'PS_Downsample7': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(375, 1): warning X4576: 'PS_AdaptStoreLast': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(384, 2): warning X4576: 'PS_Upsample1': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(385, 2): warning X4576: 'PS_Upsample2': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(386, 2): warning X4576: 'PS_Upsample3': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(387, 2): warning X4576: 'PS_Upsample4': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(388, 2): warning X4576: 'PS_Upsample5': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(389, 2): warning X4576: 'PS_Upsample6': input parameter 'uv' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_bloom.fx(391, 1): warning X4576: 'PS_Combine': input parameter 'uv' semantic does not match vertex shader one
+
+01:50:08:693 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Denoise.fx".
+01:50:08:697 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FocalDOF.fx".
+01:50:08:703 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FramerateLimiter.fx".
+01:50:08:704 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Color_Balance.fx".
+01:50:08:709 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_dof.fx".
+01:50:08:709 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AmbientLight.fx".
+01:50:08:720 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\NeoBloom.fx".
+01:50:08:721 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Color_Gradients.fx".
+01:50:08:721 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Depth3D.fx".
+01:50:08:723 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FXAA.fx".
+01:50:08:725 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\NFAA.fx".
+01:50:08:728 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_lightroom.fx".
+01:50:08:730 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\NightVision.fx".
+01:50:08:731 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\GaussianBlur.fx".
+01:50:08:735 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DepthAlpha.fx".
+01:50:08:737 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Glitch.fx".
+01:50:08:741 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\HexLensFlare.fx".
+01:50:08:741 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DepthHaze.fx".
+01:50:08:743 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Color_Isolation.fx".
+01:50:08:746 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_sharp.fx".
+01:50:08:750 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\HighPassSharpen.fx".
+01:50:08:753 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Color_Temperature.fx".
+01:50:08:754 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ArcaneBloom.fx".
+01:50:08:759 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\NLM_Sharp.fx".
+01:50:08:771 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\HotsamplingHelper.fx".
+01:50:08:781 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ArtisticVignette.fx".
+01:50:08:789 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Depth_Cues.fx".
+01:50:08:789 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\HQ4X.fx".
+01:50:08:789 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Nostalgia.fx".
+01:50:08:791 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ASCII.fx".
+01:50:08:796 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Depth_Tool.fx".
+01:50:08:797 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\HSLShift.fx".
+01:50:08:797 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Overlay.fx".
+01:50:08:802 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Image.fx".
+01:50:08:803 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx".
+01:50:08:807 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Interlaced.fx".
+01:50:08:807 [18080] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DirectionalDepthBlur.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DirectionalDepthBlur.fx(296, 8): warning X3206: implicit truncation of vector type
+
+01:50:08:812 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Layer.fx".
+01:50:08:814 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DisplayDepth.fx".
+01:50:08:814 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PandaFX.fx".
+01:50:08:823 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Dither.fx".
+01:50:08:823 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx".
+01:50:08:823 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Letterbox.fx".
+01:50:08:827 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Levels.fx".
+01:50:08:831 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SuperDepth3D.fx".
+01:50:08:835 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LevelsPlus.fx".
+01:50:08:836 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DLAA_light.fx".
+01:50:08:837 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_01B_RT_Correct_Color.fx".
+01:50:08:838 [03268] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\LiftGammaGain.fx".
+01:50:08:839 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Magical_Rectangle.fx".
+01:50:08:841 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AspectRatio.fx".
+01:50:08:842 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_01_Color_Gamut.fx".
+01:50:08:843 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\qUINT_ssr.fx".
+01:50:08:849 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Saturation_Limit.fx".
+01:50:08:853 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AspectRatioComposition.fx".
+01:50:08:855 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\RealGrain.fx".
+01:50:08:859 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\AspectRatioSuite.fx".
+01:50:08:862 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DLAA_Plus.fx".
+01:50:08:864 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Reflection.fx".
+01:50:08:871 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Selective_Color.fx".
+01:50:08:872 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BasicMotionBlur.fx".
+01:50:08:876 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BeforeAfter.fx".
+01:50:08:888 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ReflectiveBumpMapping.fx".
+01:50:08:889 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BeforeAfterWithDepth.fx".
+01:50:08:892 [12208] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BilateralFilter.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BilateralFilter.fx(128, 1): warning X4576: 'Bilateral_Filter': input parameter 'texcoord' semantic does not match vertex shader one
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BilateralFilter.fx(134, 1): warning X4576: 'PS0': input parameter 'texcoord' semantic does not match vertex shader one
+
+01:50:08:893 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\RemoveTint.fx".
+01:50:08:894 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_02_Bloom.fx".
+01:50:08:897 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DOF.fx".
+01:50:08:898 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\RetroFog.fx".
+01:50:08:901 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\RetroTint.fx".
+01:50:08:905 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DPX.fx".
+01:50:08:905 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx".
+01:50:08:907 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\RimLight.fx".
+01:50:08:917 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_02_Cinetools_LUT.fx".
+01:50:08:921 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_02_LUT_Creator.fx".
+01:50:08:921 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Bloom.fx".
+01:50:08:922 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ScreenShake.fx".
+01:50:08:924 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SCurve.fx".
+01:50:08:926 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Sepia.fx".
+01:50:08:929 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\DrawOverlay.fx".
+01:50:08:929 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SuperDepth3D_VR.fx".
+01:50:08:931 [17612] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_03_Color_Space_Curves.fx".
+01:50:08:937 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SimpleBloom.fx".
+01:50:08:942 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BloomingHDR.fx".
+01:50:08:945 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SurfaceBlur.fx".
+01:50:08:946 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Border.fx".
+01:50:08:948 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SimpleGrain.fx".
+01:50:08:948 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Swirl.fx".
+01:50:08:949 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\BulgePinch.fx".
+01:50:08:953 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Technicolor.fx".
+01:50:08:955 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Selective_Color_v2.fx".
+01:50:08:955 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Template.fx".
+01:50:08:955 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Cartoon.fx".
+01:50:08:956 [18080] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\eMotionBlur.fx" with warnings:
+warning: V__currTex: another effect (FakeMotionBlur.fx) already created a texture with the same name but different dimensions; textures are shared across all effects, so either rename the variable or adjust the dimensions so they match
+warning: V__prevTex: another effect (FakeMotionBlur.fx) already created a texture with the same name but different dimensions; textures are shared across all effects, so either rename the variable or adjust the dimensions so they match
+
+01:50:08:958 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Checkerboard.fx".
+01:50:08:958 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Sketch.fx".
+01:50:08:960 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_04_Technicolor.fx".
+01:50:08:960 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Emphasize.fx".
+01:50:08:961 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Chromakey.fx".
+01:50:08:965 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ChromaticAberration.fx".
+01:50:08:967 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\EyeAdaption.fx".
+01:50:08:967 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_05_Sharpening.fx".
+01:50:08:974 [18080] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\FakeHDR.fx".
+01:50:08:974 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_06_Chromatic_Aberration.fx".
+01:50:08:974 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Temporal_AA.fx".
+01:50:08:982 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ThinFilm.fx".
+01:50:08:988 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\TiltShift.fx".
+01:50:08:989 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_06_Depth_Slicer.fx".
+01:50:08:990 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\SMAA.fx".
+01:50:08:990 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\TinyPlanet.fx".
+01:50:08:991 [12208] | WARN  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CinematicDOF.fx" with warnings:
+C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\CinematicDOF.fx(1235, 1): warning X4576: 'PS_PostSmoothing2AndFocusing': input parameter 'texcoord' semantic does not match vertex shader one
+
+01:50:08:993 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Tonemap.fx".
+01:50:08:997 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Trails.fx".
+01:50:09:002 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\TriDither.fx".
+01:50:09:004 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\UIDetect.fx".
+01:50:09:006 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_06_Film_Grain.fx".
+01:50:09:007 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\UIMask.fx".
+01:50:09:009 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Clarity.fx".
+01:50:09:009 [15092] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Smart_Sharp.fx".
+01:50:09:009 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_06_Luma_Fade.fx".
+01:50:09:012 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ColorfulPoster.fx".
+01:50:09:014 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Unsharp.fx".
+01:50:09:017 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PD80_06_Posterize_Pixelate.fx".
+01:50:09:018 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Vibrance.fx".
+01:50:09:018 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ColorIsolation.fx".
+01:50:09:023 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PerfectPerspective.fx".
+01:50:09:023 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Vignette.fx".
+01:50:09:025 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ColorLab.fx".
+01:50:09:027 [12208] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ColorMatrix.fx".
+01:50:09:032 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\PiecewiseFilmicTonemap.fx".
+01:50:09:034 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\VirtualNose.fx".
+01:50:09:037 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\VirtualResolution.fx".
+01:50:09:037 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Bloom.fx".
+01:50:09:038 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Curve.fx".
+01:50:09:047 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\VR.fx".
+01:50:09:052 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\VR_nose.fx".
+01:50:09:060 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Depth.fx".
+01:50:09:062 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\WhitepointFixer.fx".
+01:50:09:064 [16372] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\ZigZag.fx".
+01:50:09:064 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_FXAA.fx".
+01:50:09:069 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_LightAdaptation.fx".
+01:50:09:071 [14672] | INFO  | Successfully loaded "C:\Program Files (x86)\Pekora\Versions\version-cde8fee1a1e747d4\2021M\reshade-shaders\Shaders\Pirate_Lumasharpen.fx".
+01:50:11:257 [13044] | INFO  | Loading image files for textures ...
+01:55:59:052 [13044] | INFO  | Destroyed runtime environment on runtime 16DA14E8.
+01:55:59:142 [13044] | INFO  | Exiting ...
+01:55:59:142 [13044] | INFO  | Uninstalling 50 hook(s) ...
+01:55:59:170 [13044] | INFO  | Finished exiting.
